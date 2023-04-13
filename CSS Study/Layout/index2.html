@@ -1,0 +1,62 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span {
+            width: 200px;
+        }
+
+        div {
+            color: white;
+            margin: 5px;
+            padding: 10px;
+            border: 1px solid;
+            border-radius: 10px;
+        }
+
+        .none {
+            background-color: teal;
+            display: none;
+            /* display none은 표시를 안하는 것 = 실제로 안보임  -> 서브메뉴 보이지 않게, hover 하거나 클릭하면 보이게됨*/
+        }
+
+        .inline {
+            background-color: black;
+            display: inline;
+            width: 200px;
+            height: 200px;
+            /* 인라인 적용 X */
+        }
+
+        .inline-block {
+            background-color: #ff8f00;
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            /* 인라인 적용O */
+        }
+
+        .block {
+            background-color: #311b92;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <span>MS AI School</span>
+    <span>MS AI School</span>
+    <hr>
+    <!-- hr 라인생성 -->
+    <div class="none">MS AI School</div>
+    <div class="inline">MS AI School</div>
+    <div class="inline-block">MS AI School</div>
+    <div class="block">MS AI School</div>
+    <span>MS AI School</span>
+</body>
+
+</html>
